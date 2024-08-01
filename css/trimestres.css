@@ -1,0 +1,37 @@
+/* Regras gerais para a navbar */
+.navbar {
+    background-color: #ffffff; /* Cor de fundo da navbar */
+    display: flex; /* Organiza os itens da navbar em linha */
+    flex-direction: row; /* Alinha os itens horizontalmente */
+    width: 100%; /* Ocupa toda a largura da página */
+}
+
+/* Regras para os itens <p> dentro da navbar */
+nav p {
+    margin: 25px 5px 20px 20px; /* Margens para os itens da navbar */
+    font-size: 18px; /* Tamanho da fonte dos itens da navbar */
+}
+
+/* Regras para as imagens dentro da navbar */
+nav img {
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre as imagens */
+    margin-top: 20px; /* Margem superior das imagens */
+    width: auto; /* Largura automática das imagens */
+    margin-right: 1em; /* Margem direita das imagens */
+}
+
+/* Regras para os ícones da navbar */
+.icons-navbar {
+    margin-left: 40%; /* Margem esquerda para separar os ícones do restante do conteúdo */
+}
+
+/* Regras específicas para o ícone do GitHub */
+#git {
+    border-radius: 20%; /* Bordas arredondadas no ícone do GitHub */
+}
+
+/* Regras para o header que contém a navbar */
+header {
+    position: sticky; /* Mantém o header fixo no topo ao rolar a página */
+    top: 0; /* Alinha o header ao topo da página */
+}

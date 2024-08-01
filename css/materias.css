@@ -1,0 +1,52 @@
+@import url(util.css);
+
+body {
+    padding-top: 2%;
+    font-family: 'Young Serif', serif;
+    background-image: linear-gradient(#084e00, #188200);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: max-content;
+    color: #ffffff;
+    width: 100vw;
+    overflow-x: hidden;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.total {
+    height: 100vh;
+}
+
+li {
+    text-decoration: underline;
+    padding: 10px 0;
+}
+
+/* Regras gerais para a navbar */
+.navbar {
+    background-color: #ffffff; /* Cor de fundo da navbar */
+    display: flex; /* Organiza os itens da navbar em linha */
+    flex-direction: row; /* Alinha os itens horizontalmente */
+    width: 100%; /* Ocupa toda a largura da página */
+}
+
+/* Regras para os itens <p> dentro da navbar */
+nav p {
+    margin: 25px 5px 20px 20px; /* Margens para os itens da navbar */
+    font-size: 18px; /* Tamanho da fonte dos itens da navbar */
+}
+
+/* Regras para links dentro da navbar */
+nav a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: black; /* Cor do texto dos links */
+    font-weight: bold; /* Destaca o texto do link */
+}
+
+/* Regras para o header que contém a navbar */
+header {
+    position: sticky; /* Mantém o header fixo no topo ao rolar a página */
+    top: 0; /* Alinha o header ao topo da página */
+}

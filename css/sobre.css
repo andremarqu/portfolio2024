@@ -1,0 +1,15 @@
+.sobremim {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+#sobre-mim {
+    text-align: center;
+}
+
+#bold-sobre {
+    text-align: center;
+    margin: 20px 0;
+}

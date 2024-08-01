@@ -1,0 +1,31 @@
+.triangle-top-left {
+    border-top: 80px solid #000000da;
+    border-right: 98vw solid transparent;
+    margin: 0;
+
+}
+
+.triangle-bottom-right {
+    border-bottom: 80px solid #000000d7;
+    border-left: 100vw solid transparent;
+    margin: 0;
+}
+
+.bg-triangulo {
+    background-color: #1eda18a7;
+    margin: 0;
+    padding: 50px;
+}
+
+.triangle-top-rigth {
+    border-top: 80px solid #000000d7;
+    border-left: 98vw solid transparent;
+    margin: 0;
+
+}
+
+.triangle-bottom-left {
+    border-bottom: 80px solid #006a07d7;
+    border-right: 100vw solid transparent;
+    margin: 0;
+}
