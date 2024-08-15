@@ -14,9 +14,7 @@ body {
     min-height: 100vh;
     overflow-x: scroll;
     overflow-block: hidden;
-
     background-size: cover;
-    color: #ffffff;
     width: 100vw;
     overflow-x: hidden;
 }
@@ -33,7 +31,6 @@ li {
     font-family: 'Young Serif', serif;
     text-align: center;
     width: fit-content;
-
     margin: 20px auto 40px auto;
 }
 
@@ -51,7 +48,6 @@ li {
     flex-direction: row-reverse;
     width: fit-content;
     margin: 0 auto;
-
 }
 
 #apresentacao img {
@@ -66,18 +62,19 @@ li {
 
 #title-index {
     font-size: 90px;
-
+    color: #ffffff;
+    margin-top: 100px
 }
 
 #nome-title {
     font-family: 'Young Serif', serif;
     text-align: end;
     font-size: 28px;
-
     white-space: nowrap;
     overflow: hidden;
     width: 238px;
     animation: type 1s steps(60, end);
+    color: #ffffff;
 }
 
 #nome-title:nth-child(2) {
@@ -93,7 +90,6 @@ span {
     display: flex;
     flex-direction: row;
     width: 100%;
-
 }
 
 nav p {
@@ -121,38 +117,95 @@ header {
     top: 0;
 }
 
-
-
 .portfolios_antigos {
     display: flex;
-    /* Para organizar os itens em linha */
     flex-direction: column;
-    /* Para garantir que os itens fiquem em coluna */
     align-items: center;
-    /* Alinha os itens ao início do contêiner (esquerda) */
     padding: 0;
-    /* Remove o padding padrão */
     margin: 0;
-    /* Remove a margem padrão */
     height: 100px;
-    /* Defina uma altura para a div se necessário */
     text-align: center;
 }
 
 .portfolios_antigos li {
     list-style-type: none;
-    /* Remove as bolinhas padrão dos itens da lista */
     margin: 0;
-    /* Remove a margem padrão dos itens da lista */
 }
 
 .portfolios_antigos a {
     display: block;
-    /* Faz com que os links ocupem toda a largura disponível */
     padding: 5px 0;
-    /* Ajusta o espaçamento vertical dos links */
     text-decoration: none;
-    /* Remove o sublinhado dos links */
     color: black;
-    /* Define a cor do texto dos links, ajuste conforme necessário */
+}
+
+/* Novo CSS para caixinhas retangulares horizontais e botões de trimestre */
+
+/* Caixa que envolve cada imagem e texto */
+.box {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as caixas quebrem para a linha seguinte se necessário */
+    gap: 20px; /* Espaço entre as caixas */
+    justify-content: center; /* Centraliza as caixas horizontalmente */
+}
+
+/* Estilo para cada caixa de matéria */
+.box > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px; /* Largura reduzida para cada caixa */
+    height: 220px; /* Altura reduzida para cada caixa */
+    background-color: mediumaquamarine; /* Fundo branco com transparência */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 10px; /* Espaço interno da caixa */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve para efeito de profundidade */
+    text-align: center; /* Centraliza o texto dentro da caixa */
+    overflow: hidden; /* Esconde o excesso de conteúdo fora da caixa */
+    margin-bottom: 20px; /* Espaço entre caixas na vertical */
+}
+
+/* Estilo das imagens dentro das caixas */
+#capas {
+    max-width: 100%; /* Faz a imagem ajustar-se ao tamanho da caixa */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+.caixa-materia {
+    background: rgba(255, 255, 255, 0.8); /* Cor de fundo das caixinhas com transparência */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin: 10px; /* Espaçamento entre as caixinhas */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve para efeito de profundidade */
+}
+
+.titulo-materia {
+    font-size: 20px; /* Tamanho da fonte do título reduzido */
+    margin-bottom: 10px; /* Espaço abaixo do título reduzido */
+}
+
+.trimestre-buttons {
+    display: flex;
+    flex-direction: column; /* Botões em coluna */
+    align-items: center; /* Centraliza os botões */
+}
+
+.trimestre-button {
+    display: block;
+    background: #188200; /* Cor de fundo dos botões */
+    color: #ffffff; /* Cor do texto dos botões */
+    padding: 8px 16px; /* Espaçamento interno dos botões reduzido */
+    margin: 5px; /* Espaçamento entre os botões */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas dos botões */
+    font-size: 16px; /* Tamanho da fonte dos botões reduzido */
+    transition: background-color 0.3s; /* Transição suave na cor de fundo */
+}
+
+.trimestre-button:hover {
+    background: #0d5e00; /* Cor de fundo ao passar o mouse */
 }

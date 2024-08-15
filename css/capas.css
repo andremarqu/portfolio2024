@@ -22,9 +22,11 @@
 
 .titulo_capa {
     width: fit-content;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     margin: 50px auto 50px auto;
+    font-family: 'Young Serif', serif;
+    color: white;
 
 }
 

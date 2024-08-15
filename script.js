@@ -8,3 +8,4 @@ function insta(){
 function github(){
     window.open("https://github.com/MiguelMauricioBuss")
 }
+
