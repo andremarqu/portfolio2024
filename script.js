@@ -1,11 +1,11 @@
 
 function linkd(){
-    window.open("https://www.linkedin.com/in/miguel-mauricio-buss-841469257/")
+    window.open("/")
 }
 function insta(){
-    window.open("https://www.instagram.com/buss.mg/")
+    window.open("/")
 }
 function github(){
-    window.open("https://github.com/MiguelMauricioBuss")
+    window.open("https://github.com/andremarqu")
 }
 
